@@ -1,6 +1,14 @@
-# DATA-SCIENCE-PROJECT-1
+ # Item Demand Forecasting
 
+## Problem Statement
 
-Demand forecasting of sales dataset that contain multiple(25) items sold in 10 stores corresponding to each days over 4 
-year period(2013-01-01 to 2017-12-31). Here our ML model will forecast the item demand for next year(2018-01-01 to 2018-03-31).
-This will help the manufacturers to maintain appropriate stock which results in reduction in loss due to product not being sold and also reduces the opportunity cost.
+Demand forecasts are fundamental to plan and deliver products and services. Accurate forecasting of demand can help the manufacturers to maintain appropriate stock which results in reduction in loss due to product not being sold and also reduces the opportunity cost (i.e. higher demand but less availability => opportunity lost). Despite such relevance, manufacturers have difficulty choosing which forecast model is the best for their use case. In this project, historical sales data corresponding to multiple(25) items sold in 10 stores are provided and participants are expected to come up with a best model to predict the future demand for products which results in maximum profit for the manufacturer. Predict the demand for the next 3 months at the item level (i.e. all the stores combined).
+
+## Data
+The historical sales data is available here. The item, store and sales details are provided at the daily level for a period spanning 4 years. 
+
+## Minimum Requirements
+The end objective of the participant is to produce a model that gives the best prediction to the manufacturer. Such a model must include the seasonality of the items sold. 
+
+https://www.kaggle.com/code/sahasprajapati/store-item-forecasting
+
